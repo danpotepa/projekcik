@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/danielok">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="415dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Stan zbiornika:"
+            android:textColor="#ffffff"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="415dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="0%"
+            android:textColor="#ffffff"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="415dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="left"
+            android:text="Objętość wody w ml:"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/font"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+
+            android:background="#C0C0C0"
+            android:fontFamily="@font/roboto_light"
+            android:hint="Objętość"
+            android:paddingLeft="10dp"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_alignParentBottom="true"
+
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:text="wykonaj"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/btcclick"/>
+
+        <Button
+            android:id="@+id/wroc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:text="wróć"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btcclick"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
